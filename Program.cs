@@ -56,9 +56,12 @@ namespace CMDRunner
         {
             if(!Directory.Exists(configPath) && !File.Exists(configFilePath))
             {
-                Directory.CreateDirectory(configFilePath);
+                Directory.CreateDirectory(configPath);
                 File.Create(configFilePath);
             }
+
+            File.SetAttributes(configFilePath, 
+                        (new FileInfo(configFilePath)).Attributes | FileAttributes.Normal);
         }
 
         static void parseInput(string[] _args)
@@ -169,6 +172,8 @@ namespace CMDRunner
         {
             // list all macros
 
+            Console.WriteLine();
+
             StreamReader configReader = new StreamReader(configFilePath);
             string config;
 
@@ -177,8 +182,10 @@ namespace CMDRunner
 
             for (int i = 0; i < macros.Length; i++)
             {
+                try {
                 string[] splitMacro = macros[i].Split(',');
                 Console.WriteLine("\t" + splitMacro[0] + " - " + splitMacro[1]);
+                } catch {}
             }
         }
 

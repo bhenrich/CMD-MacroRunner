@@ -1,0 +1,2 @@
+C:\Users\Benja\Desktop\Code\CMD-MacroRunner\bin\Debug\net6.0\win7-x64\publish\run.pdb
+C:\Users\Benja\Desktop\Code\CMD-MacroRunner\bin\Debug\net6.0\win7-x64\publish\run.exe

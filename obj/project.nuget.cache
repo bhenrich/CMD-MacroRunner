@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "E7I/pAc7DMxIMxm91OMg9RnhxNFRE3nVrPOZJB5/0tj6y6FDQ/9s8M6Do94lI+4ZXrDKCR1C/f0yV3Sm4gSgNQ==",
+  "dgSpecHash": "rw+756YXMc1BL5nWJRektAgjo62ItuuSGS8GmuBLQiQi/ufp/ov4cm9I5ogREnFiq4wtVqp8Vv3Og/OJ4QgkwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Benja\\Desktop\\Code\\run\\run.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Benja\\Desktop\\Code\\CMD-MacroRunner\\run.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Benja\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.9\\microsoft.netcore.app.runtime.win-x64.6.0.9.nupkg.sha512",
+    "C:\\Users\\Benja\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.9\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.9.nupkg.sha512",
+    "C:\\Users\\Benja\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.9\\microsoft.aspnetcore.app.runtime.win-x64.6.0.9.nupkg.sha512"
+  ],
   "logs": []
 }

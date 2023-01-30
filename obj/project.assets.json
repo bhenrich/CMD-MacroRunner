@@ -1,7 +1,8 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {},
+    "net6.0/win7-x64": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
@@ -14,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Benja\\Desktop\\Code\\run\\run.csproj",
+      "projectUniqueName": "C:\\Users\\Benja\\Desktop\\Code\\CMD-MacroRunner\\run.csproj",
       "projectName": "run",
-      "projectPath": "C:\\Users\\Benja\\Desktop\\Code\\run\\run.csproj",
+      "projectPath": "C:\\Users\\Benja\\Desktop\\Code\\CMD-MacroRunner\\run.csproj",
       "packagesPath": "C:\\Users\\Benja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Benja\\Desktop\\Code\\run\\obj\\",
+      "outputPath": "C:\\Users\\Benja\\Desktop\\Code\\CMD-MacroRunner\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -61,12 +62,31 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[6.0.9, 6.0.9]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[6.0.9, 6.0.9]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[6.0.9, 6.0.9]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x64": {
+        "#import": []
       }
     }
   }
