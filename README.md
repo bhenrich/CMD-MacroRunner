@@ -1,5 +1,5 @@
 # CMD-MacroRunner
-Run apps from the Windows Commans line using configerable macros
+Run apps from the Windows Command line using configerable macros
 
 ---
 
@@ -16,4 +16,12 @@ Run apps from the Windows Commans line using configerable macros
 
 3. Restart your shell.
 
-    Restart your command prompt or windows powershell window. You should be able to run the progeam by typing the 'run -help' command.
+    Restart your command prompt or windows powershell window. This is to refresh the loaded Enviroment Variables.
+
+4. First time setup
+
+    Excecute the command 'run' without any other arguments to run the first time setup. The program will create a config in your Documents folder.
+    
+5. Enjoy!
+
+    the tool is now set up. Excecute 'run -help' for instructions on how to register new programs, excecute your macros and more. The tool also works in your RUN dialogue (Win+R). Just type the command 'run <macro>' to run any software or file, without having to enter the full path or search it in the explorer.
