@@ -21,6 +21,7 @@ Run apps from the Windows Command line using configerable macros
 4. First time setup
 
     Excecute the command 'run' without any other arguments to run the first time setup. The program will create a config in your Documents folder.
+    ### Skipping this step and immediately registering or running a macro leads to an error. You do not have to reinstall the program, just type 'run' in your cmd again.
     
 5. Enjoy!
 
